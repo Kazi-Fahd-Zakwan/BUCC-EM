@@ -1,0 +1,167 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+nav ul {	
+	list-style: none;	
+	padding: 0px;
+	margin: 0px;
+	background-color: #00354a;
+	height: 10vh;
+	width: 100%;
+	position: fixed;	
+}
+
+nav a {
+	float: left;
+	color: #ffffff;
+	text-decoration: none;
+	margin-top: 1%;
+	padding: .8%;	
+	margin-left: .1%;
+	margin-right: .1%;	
+	font-size: 90%;	
+	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, "sans-serif";	
+	text-transform: uppercase;	
+	font-weight: bold;
+}
+
+nav a:first-child {	
+	margin-left: 3%;
+	margin-right: 39%;
+}
+
+nav a:hover {	
+	transition: 0.5s;
+	color: #000000;
+	background-color: #9ba3a2;	
+	border: 1 solid #6bbaff;
+	border-radius: 5px;
+}
+
+.first {
+	background-color: #00354a;	
+	display: inline-block;	
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	height: 100vh;
+	width: 100%;	
+}
+
+figure {		
+	margin-left: 1%;
+	margin-right: 1%;	
+	margin-top: 5%;	
+	padding: 0px;	
+	border: 0px;
+}
+
+.image {	
+	padding: 0px;
+	border: 0px;
+	height: 87.5vh;
+	width: 100%;			
+}
+
+.second {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;	
+	height: 100vh;
+	width: 100%;	
+	background-color: #eee;
+}
+
+.one_h1 {
+	font-weight: bold;	
+	margin: 0px;	
+	padding: 2%;
+	padding-bottom: 1%;
+	padding-top: 5%;		
+	text-align: center;
+	color: #100038;
+	font-family: "sans-serif", Helvetica, Arial;
+	font-size: 200%;
+	font-style: italic;
+}
+
+.one_p {
+	padding: 2%;
+	padding-top: 0%;
+	color: #308c0e;
+	text-align: center;
+	font-family: Arial, "sans-serif", Helvetica;
+	font-size: 130%;
+}
+
+.third {
+	height: 100vh;
+	width: 100%;
+	background-color: #d6f0ff;	
+}
+
+.one_ul {
+	list-style-type: square;
+	color: #660000;
+	font-size: 105%;
+	font-family: "sans-serif", Arial, Helvetica;	
+	margin-left: 1%;
+	margin-right: 2%;
+}
+
+.fourth {
+	height: 100vh;
+	width: 100%;
+	background-color: #fffbc2;
+}
+
+.fifth {
+	height: 100vh;
+	width: 100%;
+	background-color: #dcffd1;	
+}
+
+.sixth {
+	margin: 0px;
+	padding: 0px;
+	height: 92vh;
+	width: 100%;
+	background-color: #fccfcf;	
+}
+
+footer {	
+	font-size: 90%;	
+	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, "sans-serif";		
+	font-weight: bold;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;	   	
+	background-color: #00354a;
+	color: #ffffff;
+	height: 8vh;
+	width: 100%;
+	text-align: center;
+}
+
+footer p {		
+	display: inline-block;
+	margin-left: 38%;
+}
+
+footer a {	
+	padding: .7%;
+	display: inline;
+	color: #ffffff;
+	text-decoration: none;
+	margin-left: 25%;
+}
+
+footer a:hover {		
+	transition: 0.5s;
+	color: #000000;
+	background-color: #9ba3a2;	
+	border: 1 solid #6bbaff;
+	border-radius: 5px;
+}
