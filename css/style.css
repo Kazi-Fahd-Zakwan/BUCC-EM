@@ -15,21 +15,20 @@ nav ul {
 
 nav a {
 	float: left;
-	color: #ffffff;
+	color: #4aaeff;
 	text-decoration: none;
 	margin-top: 1%;
 	padding: .8%;	
 	margin-left: .1%;
 	margin-right: .1%;	
-	font-size: 90%;	
+	font-size: 1vw;	
 	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, "sans-serif";	
 	text-transform: uppercase;	
 	font-weight: bold;
 }
 
 nav a:first-child {	
-	margin-left: 3%;
-	margin-right: 39%;
+	margin-left: 2%;	
 }
 
 nav a:hover {	
@@ -38,7 +37,13 @@ nav a:hover {
 	border-bottom: 4px solid #9ba3a2;
 }
 
-.first {
+nav a:focus {	
+	transition: 0.3s;
+	color: #9ba3a2;	
+	border-bottom: 4px solid #9ba3a2;
+}
+
+.first {	
 	background-color: #00354a;	
 	display: inline-block;	
 	margin: 0px;
@@ -73,7 +78,7 @@ figure {
 }
 
 .one_h1 {
-	font-weight: bold;	
+	font-weight: bolder;	
 	margin: 0px;	
 	padding: 2%;
 	padding-bottom: 1%;
@@ -81,8 +86,7 @@ figure {
 	text-align: center;
 	color: #100038;
 	font-family: "sans-serif", Helvetica, Arial;
-	font-size: 200%;
-	font-style: italic;
+	font-size: 3vw;	
 }
 
 .one_p {
@@ -91,72 +95,89 @@ figure {
 	color: #308c0e;
 	text-align: center;
 	font-family: Arial, "sans-serif", Helvetica;
-	font-size: 130%;
+	font-size: 1.5vw;
+	font-style: italic;
+}
+
+.two_p {
+	color: #660000;
+	font-size: 1.3vw;
+	font-family: "sans-serif", Arial, Helvetica;	
+	margin-left: 5%;
+	margin-right: 3%;
 }
 
 .third {
 	height: 100vh;
 	width: 100%;
-	background-color: #d6f0ff;	
+	background-color: #e6f6ff;	
 }
 
 .one_ul {
 	list-style-type: square;
 	color: #660000;
-	font-size: 105%;
+	font-size: 1.2vw;
 	font-family: "sans-serif", Arial, Helvetica;	
 	margin-left: 1%;
-	margin-right: 2%;
+	margin-right: 3%;
 }
 
 .fourth {
 	height: 100vh;
 	width: 100%;
-	background-color: #fffbc2;
+	background-color: #fffcd1;
 }
 
 .fifth {
 	height: 100vh;
 	width: 100%;
-	background-color: #dcffd1;	
+	background-color: #eeffe8;	
 }
 
 .sixth {
 	margin: 0px;
 	padding: 0px;
-	height: 92vh;
+	height: 90vh;
 	width: 100%;
-	background-color: #fccfcf;	
+	background-color: #ffe3e3;
 }
 
 footer {	
-	font-size: 90%;	
-	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, "sans-serif";		
+	font-size: 1vw;
+	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-weight: bold;
 	display: inline-block;
 	margin: 0px;
-	padding: 0px;	   	
+	padding: 0px;	   		
 	background-color: #00354a;
 	color: #ffffff;
-	height: 8vh;
+	height: 10vh;
 	width: 100%;
 	text-align: center;
 }
 
 footer p {		
+	margin-top: 2%;
 	display: inline-block;
-	margin-left: 38%;
+	margin-left: 28%;
 }
 
-footer a {	
+footer a {		
+	margin-top: 2%;
 	padding: .7%;
 	display: inline;
-	color: #ffffff;
+	color: #4aaeff;
 	text-decoration: none;
-	margin-left: 25%;
+	margin-left: 20%;
 }
 
 footer a:hover {		
+	transition: 0.3s;
+	color: #9ba3a2;	
+	border-bottom: 4px solid #9ba3a2;
+}
+
+footer a:focus {		
 	transition: 0.3s;
 	color: #9ba3a2;	
 	border-bottom: 4px solid #9ba3a2;
