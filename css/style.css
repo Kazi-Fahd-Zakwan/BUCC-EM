@@ -53,6 +53,14 @@ nav a:focus {
 	width: 100%;	
 }
 
+iframe {
+	padding-top: 2%;
+	height: 40vh;
+	width: 35%;
+	margin: 0 auto;
+	display: block;
+}
+
 figure {		
 	margin-left: 1%;
 	margin-right: 1%;	
@@ -101,7 +109,7 @@ figure {
 
 .two_p {
 	color: #660000;
-	font-size: 1.3vw;
+	font-size: 1.25vw;
 	font-family: "sans-serif", Arial, Helvetica;	
 	margin-left: 5%;
 	margin-right: 3%;
@@ -116,7 +124,7 @@ figure {
 .one_ul {
 	list-style-type: square;
 	color: #660000;
-	font-size: 1.2vw;
+	font-size: 1.25vw;
 	font-family: "sans-serif", Arial, Helvetica;	
 	margin-left: 1%;
 	margin-right: 3%;
@@ -156,13 +164,13 @@ footer {
 	text-align: center;
 }
 
-footer p {
-	padding-top: 1%;	
+footer p {		
+	padding-top: 1%;
 	display: inline-block;
 	margin-left: 28%;
 }
 
-footer a {	
+footer a {		
 	padding-top: 1%;	
 	padding: .7%;
 	display: inline;
